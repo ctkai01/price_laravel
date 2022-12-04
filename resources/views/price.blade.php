@@ -54,7 +54,7 @@
 
                 <div class="logo-container" style="display: flex;
     justify-content: center; margin-top: 10px;">
-                    <img src="{{ asset('dọi.jpeg') }}" style="width: 415px; height: auto;" />
+                    <img src="{{ asset('doji.jpeg') }}" style="width: 415px; height: auto;" />
                 </div>
             </div>
         </div>
