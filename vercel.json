@@ -5,9 +5,17 @@
     },
     "routes": [
     {
-        "src": "/doji.jpeg|/main.css|/logo_ring.png",
+        "src": "/doji.jpeg",
         "dest": "/api/static.php"
     },    
+    {
+        "src": "/main.css",
+        "dest": "/api/static.php"
+    }, 
+    {
+        "src": "/logo_ring.png",
+        "dest": "/api/static.php"
+    }, 
     {
         "src": "/(.*)",
         "dest": "/api/index.php"
