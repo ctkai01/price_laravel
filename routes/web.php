@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\URL;
 | contains the "web" middleware group. Now create something great!
 |
 */
-URL::forceScheme('https');
 Route::get('/', [PriceController::class, 'getPrice']);
 Route::get('/change', [PriceController::class, 'getPriceChange'])->name('change');
 Route::post('/change', [PriceController::class, 'changePrice']);
