@@ -189,7 +189,9 @@ marquee {
 <body>
     <header>
         <!-- <div class="symbol-header" style="background-color: blue;"> -->
-        <img src="{{ asset('logo_ring.png') }}" class="logo" height="80" />
+        {{-- <img src="{{ asset('logo_ring.png') }}" class="logo" height="80" /> --}}
+        <img src="https://i.postimg.cc/90GQz0Fh/logo-ring.png" class="logo" height="80" />
+      
         <!-- </div> -->
         <div class="content-header">
             <div class="title">DOANH NGHIỆP VÀNG BẠC VIỆT HOÀN</div>
@@ -232,7 +234,7 @@ marquee {
 
                 <div class="logo-container" style="display: flex;
     justify-content: center; margin-top: 10px;">
-                    <img src="{{ asset('doji.jpeg') }}" style="width: 415px; height: auto;" />
+                    <img src="https://i.postimg.cc/5thJvJrN/doji.jpg" style="width: 415px; height: auto;" />
                 </div>
             </div>
         </div>
