@@ -3,7 +3,12 @@
     "functions": {
         "api/*.php": { "runtime": "vercel-php@0.5.2" }
     },
-    "routes": [{
+    "routes": [
+    {
+        "src": "/doji.jpeg|/main.css|/logo_ring.png",
+        "dest": "/api/static.php"
+    },    
+    {
         "src": "/(.*)",
         "dest": "/api/index.php"
     }
