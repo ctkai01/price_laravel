@@ -240,7 +240,25 @@ marquee {
         </div>
     </main>
     <footer>
-        <marquee direction="left">Doanh nghiệp Vàng Bạc Việt Hoàn Kính Chào Quý Khách - Chúc Quý Khách Hàng An Khanh Thịnh Vượng </marquee>
+        <marquee direction="left">Doanh nghiệp Vàng Bạc Việt Hoàn Kính Chào Quý Khách - Chúc Quý Khách Hàng An Khang Thịnh Vượng </marquee>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/locale/vi.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+<script src="https://unpkg.com/currency.js@~2.0.0/dist/currency.min.js"></script>
+<script>
+  setInterval(() => {
+    const dayOfWeekString = ['Chủ nhật', 'Thứ hai', 'thứ ba', 'Thứ tư', 'Thứ năm', 'Thứ sáu', 'Thứ bảy'];
+    const month = moment().format('MM');
+    const day = moment().format('DD')
+    const year = moment().format('YYYY')
+    const time = moment().format('HH:mm:ss')
+    const dayOfWeek = moment().format('e')
+    
+    const dateTime = `${dayOfWeekString[dayOfWeek]}, Ngày ${day} tháng ${month} năm ${year} - ${time}`
+    
+    document.querySelector('.time').textContent = dateTime
+}, 1000)
+
+</script>
 </body>
 </html>
