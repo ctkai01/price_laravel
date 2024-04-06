@@ -11,9 +11,9 @@ class PriceController extends Controller
     //
     public function getPrice() {
         $prices = Price::all();
-        $temp = $prices[0];
-        $prices[0] = $prices[3];
-        $prices[3] = $temp;
+        // $temp = $prices[0];
+        // $prices[0] = $prices[3];
+        // $prices[3] = $temp;
  
         return view('price', compact('prices'));
     }
