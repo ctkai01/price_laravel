@@ -230,12 +230,12 @@ marquee {
                 </tbody>
             </table>
             <div class="symbol-container">
-                <div class="title">Điểm Bán Vàng Ủy Quyền Của Tập Đoàn </div>
+                {{-- <div class="title">Điểm Bán Vàng Ủy Quyền Của Tập Đoàn </div>
 
                 <div class="logo-container" style="display: flex;
     justify-content: center; margin-top: 10px;">
                     <img src="https://i.postimg.cc/5thJvJrN/doji.jpg" style="width: 415px; height: auto;" />
-                </div>
+                </div> --}}
             </div>
         </div>
     </main>
