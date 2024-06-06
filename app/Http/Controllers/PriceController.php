@@ -34,7 +34,8 @@ class PriceController extends Controller
         (3, '" . $request->name3 . "', '" . $request->ban_ra3 . "', '" . $request->mua_vao3 . "'),
         (4, '" . $request->name4 . "', '" . $request->ban_ra4 . "', '" . $request->mua_vao4 . "'),
         (5, '" . $request->name5 . "', '" . $request->ban_ra5 . "', '" . $request->mua_vao5 . "'),
-        (7, '" . $request->name7 . "', '" . $request->ban_ra7 . "', '" . $request->mua_vao7 . "') as t
+        (7, '" . $request->name7 . "', '" . $request->ban_ra7 . "', '" . $request->mua_vao7 . "'),
+        (8, '" . $request->name8 . "', '" . $request->ban_ra8 . "', '" . $request->mua_vao8 . "') as t
         ON DUPLICATE KEY UPDATE id=t.id,
         name=t.name,
         mua_vao=t.mua_vao,
