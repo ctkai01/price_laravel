@@ -61,7 +61,8 @@ header .content-header .title {
 }
 
 header .content-header .content {
-  position: relative;
+  /* position: relative; */
+  display: flex;
   flex: 1;
 }
 
@@ -75,12 +76,14 @@ header .content-header .text-main {
   display: flex;
   color: #fff;
   text-transform: uppercase;
+  flex: 1;
 }
 
 header .content-header .text-contact {
-  position: absolute;
-  right: 10px;
-  bottom: 2px;
+  /* position: absolute; */
+  /* right: 10px; */
+  /* bottom: 2px; */
+  flex: 1;
   color: #fff;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -212,6 +215,21 @@ marquee {
 .table-container {
   flex: 2;
 }
+
+.text-empty {
+  flex: 1;
+}
+
+.text-contract-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.text-contract-container-semul {
+  position: absolute;
+  right: 20px;
+}
     </style>
 </head>
 <body>
@@ -224,11 +242,17 @@ marquee {
         <div class="content-header">
             <div class="title">DOANH NGHIỆP VÀNG BẠC VIỆT HOÀN</div>
             <div class="content">
+                <div class="text-empty"></div>
                 <div class="text-main">Giá Vàng Hôm Nay</div>
                 <div class="text-contact">
-                    <div class="time" style="margin-bottom: 5px; color:#fff"></div>
-                    <div class="address" style="margin-bottom: 10px;">Ngã 3 - Cát Thịnh - Văn Chấn - Yên Bái</div>
-                    <div class="phone">ĐT: 0346 147 495</div>
+                   <div class="text-contract-container">
+                    <div class="text-contract-container-semul">
+                      <div class="time" style="margin-bottom: 5px; color:#fff"></div>
+                        <div class="address" style="margin-bottom: 10px;">Ngã 3 - Cát Thịnh - Văn Chấn - Yên Bái</div>
+                        <div class="phone">ĐT: 0346 147 495</div>
+                    </div>
+                   
+                   </div>
                 </div>
             </div>
         </div>
