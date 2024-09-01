@@ -252,7 +252,7 @@ marquee {
                 </thead>
                 <tbody>
                     @foreach ($prices as $price)
-                        <tr style="height:100px">
+                        <tr style="height:60px">
                             <td class="product_name">
                                 <div style="height: 50px; overflow:hidden;">
                                  {{$price->name}}
@@ -281,7 +281,7 @@ marquee {
                  <div class="title">Điểm Bán Vàng Ủy Quyền Của Tập Đoàn </div>
 
                 <div class="logo-container" style="display: flex;
-    justify-content: center; margin-top: 10px; height: 565px;">
+    justify-content: center; margin-top: 10px; height: 400px;">
     <div class="image-doji"></div>
                     {{-- <img src="https://i.postimg.cc/5thJvJrN/doji.jpg" style="width: 415px; height: auto;" /> --}}
                 </div>
