@@ -46,6 +46,7 @@ header .content-header {
   width: 100%;
   display: flex;
   flex-direction: column;
+  background: red;
 }
 
 header .content-header .title {
@@ -72,7 +73,8 @@ header .content-header .text-main {
   align-items: center;
   justify-content: center;
   display: flex;
-  color: rgb(221, 23, 1);
+  color: #fff;
+  text-transform: uppercase;
 }
 
 header .content-header .text-contact {
@@ -95,42 +97,46 @@ footer {
 }
 
 .header-main {
-  position: relative;
-}
-
-.header-main .title-unit {
-  position: absolute;
-  color: #fff;
-  top: 50%;
+  /* position: relative; */
+  background-color: rgb(18, 139, 7);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+   color: #fff;
+  /* top: 50%;
   left: 10px;
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
   font-family: 700;
   font-size: 24px;
 }
 
-.header-main .title-main {
+.header-main .title-unit {
+  /* position: absolute; */
+ 
+}
+
+.time {
+  padding-right: 5px;
+}
+/* .header-main {
   display: flex;
   justify-content: center;
   color: #fff;
   font-family: 700;
   font-size: 40px;
   margin-top: 5px;
-}
+} */
 
 .price-container {
   display: flex;
-  margin-top: 5px;
-}
-
-.price-container table {
-  flex: 1;
+  /* margin-top: 5px; */
 }
 
 .price-container .symbol-container .title {
     font-weight: 700;
     font-size: 40px;
     color: #fff;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     display: flex;
     justify-content: center;
     text-align: center;
@@ -141,8 +147,12 @@ footer {
  
 }
 
-.logo-container {
-    
+.logo-container .image-doji {
+    background-image: url("https://i.postimg.cc/5thJvJrN/doji.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: top;
 }
 
 table {
@@ -156,13 +166,13 @@ th {
   border: 2px solid #fff;
   /* padding: 0.5rem; */
   text-align: left;
-  padding: 25px;
+  padding: 10px;
 
 }
 
 table td {
-    width: 33.3%;
-    text-align: center;
+    /* width: 33.3%; */
+    /* text-align: center; */
     font-weight: 700;
     font-size: 40px;
     color: rgb(253, 233, 55);
@@ -184,6 +194,24 @@ marquee {
     align-items: center;
     height: 100%;
 }
+
+.head-table th {
+  background-color: rgb(60, 46, 243);
+  color: #fff;
+  text-transform: uppercase
+}
+
+.product_name {
+  width: 40%;
+}
+
+.price_value {
+  width: 30%;
+}
+
+.table-container {
+  flex: 2;
+}
     </style>
 </head>
 <body>
@@ -198,7 +226,7 @@ marquee {
             <div class="content">
                 <div class="text-main">Giá Vàng Hôm Nay</div>
                 <div class="text-contact">
-                    <div class="time" style="margin-bottom: 5px; color:coral"></div>
+                    <div class="time" style="margin-bottom: 5px; color:#fff"></div>
                     <div class="address" style="margin-bottom: 10px;">Ngã 3 - Cát Thịnh - Văn Chấn - Yên Bái</div>
                     <div class="phone">ĐT: 0346 147 495</div>
                 </div>
@@ -207,13 +235,16 @@ marquee {
     </header>
     <main>
         <div class="header-main">
-            <div class="title-unit">ĐVT: 1000đ/ chỉ</div>
-            <div class="title-main">BẢNG GIÁ VÀNG</div>
+            <div class="title-unit">--- Đơn vị tính: Đồng /chỉ</div>
+            {{-- <div class="time"></div> --}}
+
+           {{-- <div class="title-main">BẢNG GIÁ VÀNG</div> --}}
         </div>
         <div class="price-container">
-            <table>
+          <div class="table-container">
+              <table>
                 <thead>
-                    <tr>
+                    <tr class="head-table">
                         <th>Loại vàng</th>
                         <th>Mua vào</th>
                         <th>Bán ra</th>
@@ -221,22 +252,40 @@ marquee {
                 </thead>
                 <tbody>
                     @foreach ($prices as $price)
-                        <tr>
-                            <td>{{$price->name}}</td>
-                            <td class='price_value'>{{$price->mua_vao}}</td>
-                            <td class='price_value'>{{$price->ban_ra}}</td>
+                        <tr style="height:100px">
+                            <td class="product_name">
+                                <div style="height: 50px; overflow:hidden;">
+                                 {{$price->name}}
+                                </div>
+                             </td>
+                                <td class="price_value">
+                                <div style="height: 50px; overflow:hidden;">
+                                 {{$price->mua_vao}}
+                                </div>
+                             </td>
+                               </td>
+                                <td class="price_value">
+                                <div style="height: 50px; overflow:hidden;">
+                                 {{$price->ban_ra}}
+                                </div>
+                             </td>
+                            {{-- <td class='price_value'>{{$price->mua_vao}}</td>
+                            <td class='price_value'>{{$price->ban_ra}}</td> --}}
                         </tr>
                     @endforeach
                 </tbody>
             </table>
-            {{-- <div class="symbol-container"> --}}
-                {{-- <div class="title">Điểm Bán Vàng Ủy Quyền Của Tập Đoàn </div>
+          </div>
+            
+            <div class="symbol-container"> 
+                 <div class="title">Điểm Bán Vàng Ủy Quyền Của Tập Đoàn </div>
 
                 <div class="logo-container" style="display: flex;
-    justify-content: center; margin-top: 10px;">
-                    <img src="https://i.postimg.cc/5thJvJrN/doji.jpg" style="width: 415px; height: auto;" />
-                </div> --}}
-            {{-- </div> --}}
+    justify-content: center; margin-top: 10px; height: 565px;">
+    <div class="image-doji"></div>
+                    {{-- <img src="https://i.postimg.cc/5thJvJrN/doji.jpg" style="width: 415px; height: auto;" /> --}}
+                </div>
+            </div>
         </div>
     </main>
     <footer>
