@@ -101,7 +101,8 @@ footer {
 
 .header-main {
   /* position: relative; */
-  background-color: rgb(18, 139, 7);
+  background-color: red;
+  /* background-color: rgb(18, 139, 7); */
   display: flex;
   justify-content: space-between;
   padding: 5px 0;
