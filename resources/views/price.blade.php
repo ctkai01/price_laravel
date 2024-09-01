@@ -101,10 +101,10 @@ footer {
 
 .header-main {
   /* position: relative; */
-  background-color: red;
-  /* background-color: rgb(18, 139, 7); */
+  /* background-color: red; */
+  background-color: rgb(18, 139, 7);
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 5px 0;
    color: #fff;
   /* top: 50%;
@@ -116,6 +116,7 @@ footer {
 
 .header-main .title-unit {
   /* position: absolute; */
+  margin-right: 280px;
  
 }
 
@@ -248,9 +249,9 @@ marquee {
                 <div class="text-contact">
                    <div class="text-contract-container">
                     <div class="text-contract-container-semul">
-                      <div class="time" style="margin-bottom: 5px; color:#fff"></div>
-                        <div class="address" style="margin-bottom: 10px;">Ngã 3 - Cát Thịnh - Văn Chấn - Yên Bái</div>
-                        <div class="phone">ĐT: 0346 147 495</div>
+                      {{-- <div class="time" style="margin-bottom: 5px; color:#fff"></div> --}}
+                        {{-- <div class="address" style="margin-bottom: 10px;">Ngã 3 - Cát Thịnh - Văn Chấn - Yên Bái</div> --}}
+                        {{-- <div class="phone">ĐT: 0346 147 495</div> --}}
                     </div>
                    
                    </div>
@@ -260,8 +261,8 @@ marquee {
     </header>
     <main>
         <div class="header-main">
-            <div class="title-unit">--- Đơn vị tính: Đồng /chỉ</div>
-            {{-- <div class="time"></div> --}}
+            <div class="title-unit">--- Đơn vị tính: VNĐ / chỉ</div>
+            <div class="time"></div>
 
            {{-- <div class="title-main">BẢNG GIÁ VÀNG</div> --}}
         </div>
