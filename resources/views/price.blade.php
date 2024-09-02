@@ -315,7 +315,7 @@ marquee {
         </div>
     </main>
     <footer>
-        <marquee direction="left">Doanh nghiệp Vàng Bạc Việt Hoàn. Điểm bán nhẫn vỉ 999.9</marquee>
+        <marquee direction="left">Doanh nghiệp Vàng Bạc Việt Hoàn. Điểm bán vàng nhẫn ép vỉ 999.9. Trang sức cao cấp của tập đoàn vàng bạc đá quý Doji.</marquee>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/locale/vi.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
