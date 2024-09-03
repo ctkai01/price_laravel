@@ -322,7 +322,7 @@ marquee {
 <script src="https://unpkg.com/currency.js@~2.0.0/dist/currency.min.js"></script>
 <script>
   setInterval(() => {
-    const dayOfWeekString = ['Chủ nhật', 'Thứ hai', 'thứ ba', 'Thứ tư', 'Thứ năm', 'Thứ sáu', 'Thứ bảy'];
+    const dayOfWeekString = ['Chủ nhật', 'Thứ hai', 'Thứ ba', 'Thứ tư', 'Thứ năm', 'Thứ sáu', 'Thứ bảy'];
     const month = moment().format('MM');
     const day = moment().format('DD')
     const year = moment().format('YYYY')
