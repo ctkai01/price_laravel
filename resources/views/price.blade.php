@@ -24,7 +24,7 @@ body {
 
 header {
   /* flex-grow: 60; */
-  height: 15%;
+  height: 13%;
   display: flex;
   background-color: #000;
   position: relative;
