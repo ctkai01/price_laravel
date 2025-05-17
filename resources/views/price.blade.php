@@ -241,7 +241,7 @@ thead td {
                 <div class="text-main">Giá Vàng Hôm Nay</div>
                 <div class="text-contact">
                     {{-- <div class="time" style="margin-bottom: 5px; color:coral"></div> --}}
-                    <div class="address" style="margin-bottom: 10px;">Ngã 3 - Cát Thịnh - Văn Chấn - Yên Bái</div>
+                    <div class="address" style="margin-bottom: 2px;">Ngã 3 - Cát Thịnh - Văn Chấn - Yên Bái</div>
                     <div class="phone">ĐT: 0346 147 495</div>
                 </div>
             </div>
