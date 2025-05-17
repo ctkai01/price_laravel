@@ -171,7 +171,7 @@ table td {
 thead tr th {
   text-align: center;
   color: rgb(253, 233, 55);
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   border-bottom: 4px solid #fff;
 }
