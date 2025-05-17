@@ -164,14 +164,14 @@ table td {
     width: 33.3%;
     text-align: center;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(253, 233, 55);
   }
 
 thead tr th {
   text-align: center;
   color: rgb(253, 233, 55);
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   border-bottom: 4px solid #fff;
 }
