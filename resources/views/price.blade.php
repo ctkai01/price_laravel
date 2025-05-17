@@ -89,7 +89,7 @@ header .content-header .text-contact {
 main {
   /* flex-grow: 60; */
   background-color: red;
-  height: 78%;
+  height: 80%;
 
 }
 
