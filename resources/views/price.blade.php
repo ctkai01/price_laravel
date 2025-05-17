@@ -208,7 +208,7 @@ marquee {
     padding: 10px 0;
     display: flex;
     /* color: rgb(43, 235, 43); */
-    color: #fff;
+    color: red;
     /* color: green; */
     align-items: center;
     height: 100%;
