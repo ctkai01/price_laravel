@@ -23,7 +23,8 @@ body {
 }
 
 header {
-  flex-grow: 60;
+  /* flex-grow: 60; */
+  height: 15%;
   display: flex;
   background-color: #000;
   position: relative;
@@ -50,7 +51,7 @@ header .content-header {
 
 header .content-header .title {
   color: rgb(253, 233, 55);
-  font-size: 40px;
+  font-size: 30px;
   flex: 1;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
@@ -66,7 +67,7 @@ header .content-header .content {
 
 header .content-header .text-main {
   height: 100%;
-  font-size: 40px;
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   align-items: center;
@@ -82,11 +83,14 @@ header .content-header .text-contact {
   color: #fff;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  /* display: none; */
 }
 
 main {
-  flex-grow: 60;
+  /* flex-grow: 60; */
   background-color: red;
+  height: 78%;
+
 }
 
 footer {
@@ -113,7 +117,7 @@ footer {
   justify-content: center;
   color: #fff;
   font-family: 700;
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 5px;
 }
 
@@ -123,22 +127,28 @@ footer {
 }
 
 .price-container table {
-  flex: 2;
+  /* flex: 2; */
+  width: 74%;
+}
+
+.logo-container img {
+  width: 71%;
 }
 
 .price-container .symbol-container .title {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
-    margin-left: 40px;
+    margin-left: 30px;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
 .price-container .symbol-container {
-  flex: 1;
- 
+  /* flex: 1; */
+  width: 29%;
+  border: solid 1px #fff;
 }
 
 .logo-container {
@@ -156,26 +166,31 @@ th {
   border: 2px solid #fff;
   /* padding: 0.5rem; */
   text-align: left;
-  padding: 25px;
+  padding: 17px;
 
-    white-space: nowrap;         /* Prevent text wrapping */
+  white-space: nowrap;         /* Prevent text wrapping */
   overflow: hidden;            /* Hide anything that overflows */
   text-overflow: ellipsis;
 
 }
+/* 
+.element td {
+  padding: 20px;
+
+} */
 
 table td {
     /* width: 33.33%; */
     text-align: center;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(253, 233, 55);
   }
 
 thead tr th {
   text-align: center;
   color: rgb(253, 233, 55);
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   border-bottom: 4px solid #fff;
 }
@@ -192,6 +207,16 @@ marquee {
     align-items: center;
     height: 100%;
 }
+
+.title-time {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-family: 700;
+  font-size: 20px;
+}
     </style>
 </head>
 <body>
@@ -206,7 +231,7 @@ marquee {
             <div class="content">
                 <div class="text-main">Giá Vàng Hôm Nay</div>
                 <div class="text-contact">
-                    <div class="time" style="margin-bottom: 5px; color:coral"></div>
+                    {{-- <div class="time" style="margin-bottom: 5px; color:coral"></div> --}}
                     <div class="address" style="margin-bottom: 10px;">Ngã 3 - Cát Thịnh - Văn Chấn - Yên Bái</div>
                     <div class="phone">ĐT: 0346 147 495</div>
                 </div>
@@ -217,6 +242,7 @@ marquee {
         <div class="header-main">
             <div class="title-unit">ĐVT: 1000đ/ chỉ</div>
             <div class="title-main">BẢNG GIÁ VÀNG</div>
+             <div class="title-time" style="color:#fff"></div>
         </div>
         <div class="price-container">
             <table>
@@ -229,7 +255,7 @@ marquee {
                 </thead>
                 <tbody>
                     @foreach ($prices as $price)
-                        <tr>
+                        <tr class="element">
                             <td>{{$price->name}}</td>
                             <td class='price_value'>{{$price->mua_vao}}</td>
                             <td class='price_value'>{{$price->ban_ra}}</td>
@@ -242,7 +268,7 @@ marquee {
 
                 <div class="logo-container" style="display: flex;
     justify-content: center; margin-top: 10px;">
-                    <img src="https://i.postimg.cc/5thJvJrN/doji.jpg" style="width: 415px; height: auto;" />
+                    <img src="https://i.postimg.cc/5thJvJrN/doji.jpg" style="height: auto;" />
                 </div>
             </div>
         </div>
@@ -264,7 +290,7 @@ marquee {
     
     const dateTime = `${dayOfWeekString[dayOfWeek]}, Ngày ${day} tháng ${month} năm ${year} - ${time}`
     
-    document.querySelector('.time').textContent = dateTime
+    document.querySelector('.title-time').textContent = dateTime
 }, 1000)
 
 </script>
