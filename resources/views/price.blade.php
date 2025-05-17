@@ -161,7 +161,7 @@ th {
 }
 
 table td {
-    width: 33.3%;
+    width: 30%;
     text-align: center;
     font-weight: 700;
     font-size: 40px;
@@ -174,6 +174,10 @@ thead tr th {
   font-size: 40px;
   font-weight: 700;
   border-bottom: 4px solid #fff;
+}
+
+tbody .title {
+width: 40%;
 }
 
 marquee { 
@@ -222,7 +226,7 @@ marquee {
                 <tbody>
                     @foreach ($prices as $price)
                         <tr>
-                            <td>{{$price->name}}</td>
+                            <td class="title">{{$price->name}}</td>
                             <td class='price_value'>{{$price->mua_vao}}</td>
                             <td class='price_value'>{{$price->ban_ra}}</td>
                         </tr>
