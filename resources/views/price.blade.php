@@ -51,7 +51,7 @@ header .content-header {
 
 header .content-header .title {
   color: rgb(253, 233, 55);
-  font-size: 30px;
+  font-size: 34px;
   flex: 1;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
@@ -67,7 +67,7 @@ header .content-header .content {
 
 header .content-header .text-main {
   height: 100%;
-  font-size: 30px;
+  font-size: 34px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   align-items: center;
@@ -119,7 +119,7 @@ footer {
   justify-content: center;
   color: #fff;
   font-family: 700;
-  font-size: 30px;
+  font-size: 34px;
   /* margin-top: 5px; */
 }
 
@@ -139,9 +139,9 @@ footer {
 
 .price-container .symbol-container .title {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 34px;
     color: #fff;
-    margin-left: 30px;
+    margin-left: 35px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -185,7 +185,7 @@ table td {
     /* width: 33.33%; */
     text-align: center;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 34px;
     color: rgb(253, 233, 55);
   }
 
@@ -193,7 +193,7 @@ thead tr th {
   text-align: center;
   color: #fff;
   /* color: rgb(253, 233, 55); */
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 700;
   border-bottom: 4px solid #fff;
   background: rgb(12, 34, 202)
