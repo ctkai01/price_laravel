@@ -164,7 +164,7 @@ table td {
     width: 33.3%;
     text-align: center;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(253, 233, 55);
   }
 
