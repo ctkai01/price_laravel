@@ -101,7 +101,7 @@ footer {
 .header-main {
   position: relative;
   background: green;
-  padding: 5px 0;
+  padding: 3px 0;
 }
 
 .header-main .title-unit {
@@ -119,7 +119,7 @@ footer {
   justify-content: center;
   color: #fff;
   font-family: 700;
-  font-size: 34px;
+  font-size: 30px;
   /* margin-top: 5px; */
 }
 
