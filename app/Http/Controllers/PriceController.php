@@ -40,7 +40,6 @@ class PriceController extends Controller
         mua_vao=t.mua_vao,
         ban_ra=t.ban_ra;
         ";
-        //dd($rawQuery);
         DB::statement($rawQuery);
         return redirect()->route('change');
     }
