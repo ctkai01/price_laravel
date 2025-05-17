@@ -240,7 +240,7 @@ marquee {
     </header>
     <main>
         <div class="header-main">
-            <div class="title-unit">ĐVT: 1000đ/ chỉ</div>
+            <div class="title-unit">ĐVT: VNĐ/ chỉ</div>
             <div class="title-main">BẢNG GIÁ VÀNG</div>
              <div class="title-time" style="color:#fff"></div>
         </div>
