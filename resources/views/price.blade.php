@@ -158,10 +158,14 @@ th {
   text-align: left;
   padding: 25px;
 
+    white-space: nowrap;         /* Prevent text wrapping */
+  overflow: hidden;            /* Hide anything that overflows */
+  text-overflow: ellipsis;
+
 }
 
 table td {
-    width: 33.33%;
+    /* width: 33.33%; */
     text-align: center;
     font-weight: 700;
     font-size: 40px;
