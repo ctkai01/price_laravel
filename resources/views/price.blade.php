@@ -134,7 +134,7 @@ footer {
 }
 
 .logo-container img {
-  width: 71%;
+  width: 65%;
 }
 
 .price-container .symbol-container .title {
