@@ -176,10 +176,6 @@ thead tr th {
   border-bottom: 4px solid #fff;
 }
 
-tbody .title {
-/* width: 40%; */
-}
-
 marquee { 
     font-size: 30px;
     padding: 10px 0;
@@ -226,7 +222,7 @@ marquee {
                 <tbody>
                     @foreach ($prices as $price)
                         <tr>
-                            <td class="title">{{$price->name}}</td>
+                            <td>{{$price->name}}</td>
                             <td class='price_value'>{{$price->mua_vao}}</td>
                             <td class='price_value'>{{$price->ban_ra}}</td>
                         </tr>
