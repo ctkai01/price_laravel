@@ -100,6 +100,8 @@ footer {
 
 .header-main {
   position: relative;
+  background: green;
+  padding: 5px 0;
 }
 
 .header-main .title-unit {
@@ -118,12 +120,12 @@ footer {
   color: #fff;
   font-family: 700;
   font-size: 30px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
 }
 
 .price-container {
   display: flex;
-  margin-top: 5px;
+  /* margin-top: 5px; */
 }
 
 .price-container table {
@@ -189,10 +191,12 @@ table td {
 
 thead tr th {
   text-align: center;
-  color: rgb(253, 233, 55);
+  color: #fff;
+  /* color: rgb(253, 233, 55); */
   font-size: 30px;
   font-weight: 700;
   border-bottom: 4px solid #fff;
+  background: rgb(12, 34, 202)
 }
 
 /* tbody .title {
@@ -207,6 +211,10 @@ marquee {
     align-items: center;
     height: 100%;
 }
+/* 
+thead td {
+  background: rgb(12, 34, 202)
+} */
 
 .title-time {
   position: absolute;
@@ -274,7 +282,7 @@ marquee {
         </div>
     </main>
     <footer>
-        <marquee direction="left">Doanh nghiệp Vàng Bạc Việt Hoàn Kính Chào Quý Khách - Chúc Quý Khách Hàng An Khang Thịnh Vượng </marquee>
+        <marquee direction="left">Doanh nghiệp Vàng Bạc Việt Hoàn. Điểm bán ủy quyền vàng nhẫn ép vỉ 999.9 và trang sức 10K, 14K, 18K và 24K của Tập Đoàn Vàng Bạc Đá Quý Doji.</marquee>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/locale/vi.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
