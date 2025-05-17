@@ -94,7 +94,8 @@ main {
 }
 
 footer {
-  background-color: #000;
+  /* background-color: #000; */
+  background: rgb(12, 34, 202);
   flex-grow: 25;
 }
 
@@ -208,7 +209,7 @@ marquee {
     padding: 10px 0;
     display: flex;
     /* color: rgb(43, 235, 43); */
-    color: red;
+    color: #fff;
     /* color: green; */
     align-items: center;
     height: 100%;
