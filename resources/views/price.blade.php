@@ -161,7 +161,7 @@ th {
 }
 
 table td {
-    width: 30%;
+    width: 33.3%;
     text-align: center;
     font-weight: 700;
     font-size: 40px;
@@ -177,7 +177,7 @@ thead tr th {
 }
 
 tbody .title {
-width: 40%;
+/* width: 40%; */
 }
 
 marquee { 
