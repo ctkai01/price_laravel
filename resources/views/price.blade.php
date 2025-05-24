@@ -285,7 +285,7 @@ thead td {
         </div>
     </main>
     <footer>
-        <marquee direction="left">Doanh nghiệp Vàng Bạc Việt Hoàn. Điểm bán ủy quyền vàng nhẫn ép vỉ 999.9 và trang sức 10K, 14K, 18K và 24K của Tập Đoàn Vàng Bạc Đá Quý Doji. Việt Hoàn kính chúc quý khách an khang thịnh vượng.</marquee>
+        <marquee direction="left">Doanh nghiệp Vàng Bạc Việt Hoàn. Điểm bán ủy quyền vàng nhẫn ép vỉ 999.9 và trang sức 10K, 14K, 18K và 24K của Tập Đoàn Vàng Bạc Đá Quý Doji. Vàng Bạc Việt Hoàn kính chúc quý khách an khang thịnh vượng.</marquee>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/locale/vi.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
