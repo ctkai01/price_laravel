@@ -140,7 +140,7 @@ footer {
 
 .price-container .symbol-container .title {
     font-weight: 700;
-    font-size: 34px;
+    font-size: 25px;
     color: #fff;
     margin-left: 35px;
     display: flex;
@@ -205,7 +205,7 @@ width: 40%;
 } */
 
 marquee { 
-    font-size: 30px;
+    font-size: 24px;
     padding: 10px 0;
     display: flex;
     /* color: rgb(43, 235, 43); */
