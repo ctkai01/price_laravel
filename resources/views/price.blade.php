@@ -81,7 +81,7 @@ header .content-header .text-contact {
   right: 10px;
   bottom: 2px;
   color: #fff;
-  font-size: 12px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   /* display: none; */
 }
@@ -226,7 +226,7 @@ thead td {
   right: 10px;
   transform: translateY(-50%);
   font-family: 700;
-  font-size: 20px;
+  font-size: 15px;
 }
     </style>
 </head>
