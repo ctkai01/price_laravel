@@ -81,7 +81,7 @@ header .content-header .text-contact {
   right: 10px;
   bottom: 2px;
   color: #fff;
-  font-size: 20px;
+  font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   /* display: none; */
 }
