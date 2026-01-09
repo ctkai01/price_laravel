@@ -81,7 +81,7 @@ header .content-header .text-contact {
   right: 10px;
   bottom: 2px;
   color: #fff;
-  font-size: 15px;
+  font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   /* display: none; */
 }
@@ -89,7 +89,7 @@ header .content-header .text-contact {
 main {
   /* flex-grow: 60; */
   background-color: red;
-  height: 80%;
+  height: 82%;
 
 }
 
@@ -205,7 +205,7 @@ width: 40%;
 } */
 
 marquee { 
-    font-size: 24px;
+    font-size: 20px;
     padding: 10px 0;
     display: flex;
     /* color: rgb(43, 235, 43); */
