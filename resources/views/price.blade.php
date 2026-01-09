@@ -51,7 +51,7 @@ header .content-header {
 
 header .content-header .title {
   color: rgb(253, 233, 55);
-  font-size: 34px;
+  font-size: 25px;
   flex: 1;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
@@ -67,7 +67,7 @@ header .content-header .content {
 
 header .content-header .text-main {
   height: 100%;
-  font-size: 34px;
+  font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   align-items: center;
@@ -120,7 +120,7 @@ footer {
   justify-content: center;
   color: #fff;
   font-family: 700;
-  font-size: 30px;
+  font-size: 25px;
   /* margin-top: 5px; */
 }
 
