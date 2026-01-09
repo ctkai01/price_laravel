@@ -186,7 +186,7 @@ table td {
     /* width: 33.33%; */
     text-align: center;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     color: rgb(253, 233, 55);
   }
 
@@ -194,7 +194,7 @@ thead tr th {
   text-align: center;
   color: #fff;
   /* color: rgb(253, 233, 55); */
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   border-bottom: 4px solid #fff;
   background: rgb(12, 34, 202)
